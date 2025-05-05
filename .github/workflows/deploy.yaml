@@ -32,7 +32,7 @@ jobs:
 
     - name: Commit and push updated values.yaml
       env:
-        GH_TOKEN: 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
+        GH_TOKEN: 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
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
