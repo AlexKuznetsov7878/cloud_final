@@ -19,7 +19,7 @@ jobs:
       uses: docker/login-action@v3
       with:
         username: summaryexperts
-        password:
+        password: dckr_pat_jnjQ5OS4uPC-bhFrSvMo601H_dQ
 
     - name: Build and push image
       run: |
